@@ -1,0 +1,16 @@
+.carousel{
+    margin-top: var(--padding-y);
+    padding: var(--padding-y) 0;
+    width: 100%;
+    overflow-x: hidden;
+    text-align: center;
+    h1{
+        padding: 0 var(--padding-x);
+    }
+    .slider{
+        width: 100%;
+        display: flex;
+        overflow-x: scroll;
+        gap: 5vw;
+    }
+}

@@ -1,0 +1,36 @@
+.header{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding-y) var(--padding-x);
+    .ham{
+        width: 30px;
+        height: 30px;
+        img{
+            height: 30px;
+            width: 30px;
+            object-fit: contain;
+        }
+    }
+
+
+    .logo{
+        display: flex;
+        align-items: center;
+        img{
+            height: 40px;
+            width: 40px;
+            object-fit: contain;
+        }
+
+        p{
+            span{
+                color: var(--yellow);
+            }
+
+            font-weight: bold;
+        }
+        
+    }
+}
