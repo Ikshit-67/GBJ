@@ -4,6 +4,8 @@
         padding: var(--padding-y) var(--padding-x);
     }
     .slider{
+        height: fit-content;
         background-color: rgb(255, 250, 194);
+        // padding: var(--padding-y) 0;
     }
 }
